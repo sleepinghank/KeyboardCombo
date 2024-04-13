@@ -37,11 +37,6 @@ int main() {
     uint8_t is_extend = 0;
     current = _key_code_list->head;
 
-    if (current == NULL && active_event == 1 ) {
-        current = _key_code_list_extend->head;
-        is_extend = 1;
-    }
-
     while (current != NULL) {
         curr_tmp = current;
         current = current->next;
