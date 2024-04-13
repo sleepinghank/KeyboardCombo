@@ -22,7 +22,7 @@
 #define COMBO_END 0
 /**
   * @brief  事件触发后回调函数
-  * @param  uint8_t* arr: 长度为10的数组，用于记录组合键
+  * @param  uint16_t* arr: 长度为10的数组，用于记录组合键
   * @retval uint8_t: 返回新增键的个数
   */
 typedef uint8_t (*BtnCallback)(uint16_t* add_keys);
